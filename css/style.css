@@ -1,0 +1,52 @@
+body{
+    background: url(../img/f2.jpg) #1a0dd6;
+    background-size: cover;
+    line-height: 1.2 !important;
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background: #f3eeee3b;
+    display: flex;
+    align-items: center;
+}
+.card{
+    background: whitesmoke;
+    border-radius: .7em;
+}
+.header {
+    text-align: center;
+    font-size: 150px;
+    color: #207194;
+}
+.header p{
+    font-family: 'Varela Round', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+.input-group-text{
+    background-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+}
+.input-cont{
+    border-left-color: #FFFFFF;
+    font-size: 18px;
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+form a{
+    float: right;
+}
+form button{
+    box-shadow: inset -1px 0px 19px 0px #00000063, 0em 0 0.4em;
+}
+.error{
+    border: 2px solid red;
+    border-radius: .3em;
+}
+#validate{
+    color: #d40808;
+    text-align: center;
+}
+/* font-family: 'Pacifico', cursive;
+font-family: 'Varela Round', sans-serif; */
